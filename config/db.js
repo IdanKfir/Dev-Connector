@@ -8,8 +8,8 @@ const connectDB = async () => {
     await mongoose.connect(db);
 
     console.log('MongoDB Connected');
-  } catch (error) {
-    console.error(error.message);
+  } catch (err) {
+    console.error(err.message);
     // Exit Process with failure
     process.exit(1);
   }
