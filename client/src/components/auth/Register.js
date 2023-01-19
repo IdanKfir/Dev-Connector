@@ -56,8 +56,11 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             onChange={onChange}
           />
           <small className='form-text'>
-            This site uses Gravatar so if you want a profile image, use a
-            Gravatar email
+            This site uses{' '}
+            <a href='https://gravatar.com/' rel='noreferrer' target='_blank'>
+              Gravatar
+            </a>{' '}
+            so if you want a profile image, use a Gravatar email
           </small>
         </div>
         <div className='form-group'>

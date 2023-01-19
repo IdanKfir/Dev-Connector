@@ -2,6 +2,9 @@
   "name": "devconnect",
   "version": "1.0.0",
   "description": "Social network for developers",
+  "engines": {
+    "node": "18.6.0"
+  },
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server",
