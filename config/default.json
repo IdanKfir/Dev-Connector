@@ -2,5 +2,6 @@
   "mongoURI": "mongodb+srv://1234mim:321123mi@devconnect.caju2oe.mongodb.net/?retryWrites=true&w=majority",
   "jwtSecret": "mysecrettoken",
   "githubClientId": "21ee04a0062d5eaf0940",
-  "githubSecret": "6a21536b6572c760e2ac675657e5c53877f3271d"
+  "githubSecret": "6a21536b6572c760e2ac675657e5c53877f3271d",
+  "NPM_CONFIG_PRODUCTION": "false"
 }
